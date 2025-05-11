@@ -11,7 +11,7 @@ Este proyecto es un portafolio personal desarrollado en HTML y CSS que presenta 
 
 📄 Sección de Curriculum Vitae: enlace para descarga (a completar cv).
 
-📬 Formulario de contacto funcional usando formsubmit.co.
+📬 Formulario de contacto no funcional.
 
 🌐 Enlaces a mis redes  (LinkedIn, GitHub, correo).
 
