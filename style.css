@@ -60,8 +60,8 @@ nav a:last-child {
 .mi-foto {
     position: absolute;
     right: 15%;
-    max-width: 30%;
-    max-height: 50vh;
+    max-width: 25%;
+    max-height: 40vh;
     border-radius: 50%;
     display: none;
 }
@@ -83,18 +83,19 @@ nav a:last-child {
 .header-content {
     text-align: left;
     z-index: 10;
-    padding-left: 3rem;
+    padding-left: 5rem;
 }
 
 .header-content h2 {
-    font-size: 2.5rem;
+    font-size:2rem;
     font-weight: bold;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1rem;
 }
 
-.header-content p {
-    font-size: 1.5rem;
-    margin-bottom: 2.25rem;
+.header-content h3 {
+   font-size:1.5rem;
+   font-weight: bold;
+   margin-bottom: 1rem; 
 }
 
 /* Botón */
