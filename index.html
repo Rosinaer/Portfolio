@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!--Enlace al css-->
+    <link rel="stylesheet" href="style.css">
+    <!--Enlace para los iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navegación -->
+    <nav>
+        <div class="container">
+            <h1>Mi Portfolio</h1>
+            <div>
+                <a href="#about">Sobre mi</a>
+                <a href="#skills">Habilidades</a>
+                <a href="#contact">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--Header-->
+    <header class="header">
+        <img src="./assets/imagenes/Image1.jpeg" alt="Mi Foto" class="mi-foto">
+        <div class="header-content">
+            <h2>Rosina Reñones</h2>
+            <h3>Full Stack Developer</h3>
+
+            <a href="#contact" class="btn-contact">Contáctame</a>
+        </div>
+    </header>
+
+    <!-- Sobre mi -->
+    <section id="about" class="about-section">
+        <h2>Sobre mi</h2>
+
+        <p>Soy una desarrolladora Full Stack en formación continua, con una sólida base adquirida a través de cursos
+            especializados y aprendizaje autodidacta.Actualmente estoy cursando una tecnicatura en Desarrollo de
+            Software, lo que refuerza y amplía mis conocimientos en el área.</p>
+
+        <p>Me apasiona la tecnología y disfruto construir soluciones digitales que combinan funcionalidad, diseño y una
+            buena experiencia de usuario.
+        </p>
+
+        <p>A lo largo de mi camino formativo he trabajado con diversas herramientas y lenguajes de programación, lo que
+            me ha permitido desarrollar habilidades tanto en el frontend como en el backend. Me interesa especialmente
+            seguir creciendo profesionalmente y enfrentar nuevos desafíos que me permitan aplicar y ampliar mis
+            conocimientos.
+        </p>
+
+        <div class="about-date">
+            <ul>
+                <li>Nombre: Rosina Reñones</li>
+
+                <li>Edad: 49</li>
+
+                <li>Ciudad: Bahia Blanca</li>
+
+                <li>Provincia: Buenos Aires</li>
+
+                <li>Email: rosinaerm@gmail.com</li>
+
+            </ul>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="skills" class="skills-section">
+        <h2>Habilidades</h2>
+        <table class="skills-table">
+            <thead>
+                <tr>
+                    <th>Habilidades</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i class="fas fa code icon csharp"></i> C#</td>
+                    <td>Desarrollo de aplicaciones y sistemas de escritorio/web</td>
+                </tr>
+                <tr>
+                    <td><i class="fas fa-code icon Python"></i>Python</td>
+                    <td>Automatización, análisis de datos y desarrollo web</td>
+                </tr>
+                <tr>
+                    <td><i class="fas fa-code icon kotlin"></i>kotlin</td>
+
+                    <td>Desarrollo de aplicaciones móviles Android</td>
+                </tr>
+                <tr>
+                    <td><i class="fab fa-js-square icon js"></i>JavaScript</td>
+                    <td>Desarrollo de aplicaciones web</td>
+                </tr>
+                <tr>
+                    <td><i class="fas fa-database icon sql"></i>MySQL</td>
+                    <td>Diseño, gestión y optimización de bases de datos.</td>
+                </tr>
+                <tr>
+                    <td><i class="fab fa-css3-alt icon css"></i>CSS3</td>
+                    <td>Diseño de interfaz de usuario estilizado y responsivo</td>
+                </tr>
+                <tr>
+                    <td><i class="fas fa-code icon html"></i>HTML5</td>
+                    <td>Estructuración de contenido web semántico</td>
+                </tr>
+                <tr>
+                    <td><i class="fas fa-toolbox icon tools"></i>Herramientas y Técnicas</td>
+                    <td>Git, Desarrollo Ágil con Scrum, Figma</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="projects" class="projects-container">
+
+        <h2>Mis Proyectos</h2>
+
+        <div class="projects-grid">
+
+            <!-- Project 1 -->
+            <div class="project-card">
+                <h3 class="project-title">Pagina-ADA </h3>
+                <img src="./assets/imagenes/Pagina ADA.png" class="project-image" alt="Proyecto 1">
+
+                <div class="project-links">
+                    <a href="https://rosinaer.github.io/pagina-ADA/" target="_blank" class="project-deploy">Deployment</a>
+                    <a href="https://github.com/Rosinaer/pagina-ADA.git" target="_blank" class="project-repo">Repository</a>
+
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <h3 class="project-title">Sistem-Empleados</h3>
+                <img src="assets/imagenes/Sistem-Empleados.png" class="project-image" alt="Proyecto 2">
+
+                <div class="project-links">
+                    <a href="" target="_blank" class="project-deploy">Deployment</a>
+                    <a href="https://github.com/Rosinaer/Sistema-empleados.git" target="_blank" class="project-repo">Repository</a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <h3 class="project-title">Rick and Morty API</h3>
+                <img src="./assets/imagenes/Rick and Morty.png" class="project-image" alt="Proyecto3">
+
+                <div class="project-links">
+                    <a href="https://proyecto-argentina-progama-jzwas30am-rosinaer.vercel.app/" target="_blank" class="project-deploy">Deployment</a>
+                    <a href="https://github.com/Rosinaer/Proyecto-Argentina-Programa.git" target="_blank" class="project-repo">Repository</a>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card">
+                <h3 class="project-title"></h3>
+                <img src="" class="project-image" alt="Proyecto 4">
+
+                <div class="project-links">
+                    <a href="" target="_blank" class="project-deploy">Deployment</a>
+                    <a href="" target="_blank" class="project-repo">Repository</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CV -->
+    <section id="cv" class="section-container">
+        <h2 class="section-title">Curriculum Vitae</h2>
+        <div class="cv-download">
+
+            <!-- enlace para descargar el CV (solo estructura CV, luego ira el cv verdadero)-->
+            <a href="./assets/Documentos/Mi_CV.pdf" class="cv-button" download="Mi_CV.pdf">Download CV (PDF)</a>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Contacto</h2>
+        <form action="#" method="POST">
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="surname">Apellido:</label>
+                    <input type="text" id="surname" name="surname" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Teléfono:</label>
+                    <input type="text" id="phone" name="phone" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Enviar</button>
+        </form>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/rosina-reñones" target="_blank"><i
+                    class="fab fa-linkedin icon linkedin"></i></a>
+            <a href="https://github.com/Rosinaer" target="_blank"><i class="fab fa-github icon github"></i></a>
+            <a href="mailto:rosinaerm@gmail.com"><i class="fas fa-envelope icon email"></i></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2025 Rosina Reñones.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
